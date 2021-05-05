@@ -196,11 +196,11 @@
         }
     40% {
         left: calc(100% - 30px);
-        top: 60px;        
+        top: 100%;        
     }
     70% {
         left: -30px;
-        top: 60px;
+        top: 100%;
     }
     90% {
         left: -30px;
