@@ -190,21 +190,21 @@
     position: absolute;
 }
 @keyframes bianco-su {
-    30% {
+    20% {
         left: calc(100% - 30px);
         top: -10px;
         }
-    50% {
+    40% {
         left: calc(100% - 30px);
         top: 60px;        
     }
-    80% {
+    70% {
         left: -30px;
         top: 60px;
     }
-    100% {
+    90% {
         left: -30px;
-        top:0;
+        top: -10px;
     }    
 }
 .ex-13-button:hover .ex-13-bottom-white {
@@ -216,16 +216,16 @@
         right: calc(100% - 30px);
         top: 50px;        
     }
-    50% {
+    40% {
         right: calc(100% - 30px);
         top: -10px;
     } 
-    80% {
+    70% {
         right: -30px;
         top: -10px;
     }
-    100% {
+    90% {
         right: -30px;
-        top: 50px ;
+        top: 55px ;
     }    
 }
