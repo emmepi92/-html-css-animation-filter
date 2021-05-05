@@ -164,7 +164,7 @@
     25% {transform: rotate(90deg);}
     50% {transform: rotate(180deg);}
     75% {transform: rotate(270deg);}
-    100% {transform: rotate(0deg);}        
+    100% {transform: rotate(0deg);}   /* si poteva evitare*/     
 } 
 
 /* Esercizio 12 */
@@ -210,7 +210,6 @@
 .ex-13-button:hover .ex-13-bottom-white {
     animation: bianco-giu 2s linear;
     position: absolute;
-    background-color: red;
 }
 @keyframes bianco-giu {
     20% {
