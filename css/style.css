@@ -210,11 +210,12 @@
 .ex-13-button:hover .ex-13-bottom-white {
     animation: bianco-giu 2s linear;
     position: absolute;
+    background-color: red;
 }
 @keyframes bianco-giu {
     20% {
         right: calc(100% - 30px);
-        top: 50px;        
+        top: 55px;        
     }
     40% {
         right: calc(100% - 30px);
@@ -226,6 +227,6 @@
     }
     90% {
         right: -30px;
-        top: 55px ;
+        top: 55px;
     }    
 }
